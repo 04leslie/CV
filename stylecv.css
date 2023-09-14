@@ -1,0 +1,141 @@
+
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:rgb(182, 219, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin: 50px;
+    box-shadow: 0 35px 35px rba(0,0,0,0.1);
+
+}
+.container .left{
+    position: relative;
+    background:black;
+    padding: 40px;
+}
+.container .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profiletxt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(196, 192, 192, 0.2);
+
+}
+.profiletxt img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.profiletxt span{
+    color: rgb(49, 180, 223);
+    font-size: 15px;
+    font-weight: 300px;
+}
+.profiletxt h2{
+    color: rgb(49, 180, 223);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 1.4em;
+    text-align: center;
+}
+.contactinfo{
+    padding-top: 30px;
+    position: relative;
+}
+.title{
+    color: rgb(49, 180, 223);
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+.contactinfo .icon{
+width: 25px;
+font-size: 18px;
+color: rgb(49, 180, 223);
+}
+.contactinfo span{
+    color: #fff;
+    font-weight: 300;
+
+}
+ul li{
+    color:rgb(49, 180, 223);
+}
+.edu h4{
+    color: #fff;
+}
+.contactinfo .edu{
+    margin-bottom: 15px;
+}
+.edu h5{
+    color: rgb(49, 180, 223);
+    font-weight: 500;
+}
+.edu{
+    color: #fff;
+    font-weight: 300;
+}
+.contactinfo.lang .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color:rgb(49, 180, 223);
+    display: block;
+    margin-top: 5px;
+}
+.lang div{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    height: 100%;
+    background: rgb(49, 180, 223);
+}
+.title2{
+    color:black;
+    font-size: 30px;
+}
+.about p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.maslang div{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    height: 100%;
+    background: rgb(49, 180, 223);
+}
+.maslang .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color:rgb(219, 215, 215);
+    display: block;
+    margin-top: 5px;
+}
